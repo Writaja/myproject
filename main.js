@@ -49,7 +49,7 @@ if(e.shiftKey==true && keypressed=="77"){
     block_img_height=block_img_height-10;
     block_img_width=block_img_width-10;
     document.getElementById("current_width").innerHTML=block_img_width;
-    document.getElementById("current_height").innerHTML=block_img_height;
+    document.getElementById("current_height").innerHTML=block_img_height;}
 
             if(keypressed=='82'){
                 new_img ("rr1.png");
@@ -71,3 +71,4 @@ if(e.shiftKey==true && keypressed=="77"){
                                     new_img ("yr.png");
                                     console.log("y");
                            }
+                        }
