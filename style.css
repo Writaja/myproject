@@ -1,8 +1,8 @@
-.body_background 
+.body_backgorund 
 {
-    background-image: url("https://s3.envato.com/files/161464875/Crystal%20Background%20preview%20image.jpg");
-    background-position: center;
-    background-size: cover;
+    background-image:url(backg.jpg);
+    background-position:center;
+    background-size:cover;
 }
 #myCanvas
 {
@@ -11,31 +11,10 @@
     border-style:ridge;
 }
 
-h2
-{
-	border-radius: 10px;
-	width: 200px;
-	padding: 5px;
- }
 h3
 {
+	width: 1000px;
+	background-color: white;
 	display: inline-block;
 }
-span
-{
-	color: black;	
-}
-a
-{
-	text-decoration: none;
-	font-size: 20px;
-	padding: 10px;
-    float: left;
-    border-radius: 10px;
-}
-#head_info
-{
-	width: 600px;
-	border-radius: 10px;
-	margin-bottom: 10px;
-}
+
